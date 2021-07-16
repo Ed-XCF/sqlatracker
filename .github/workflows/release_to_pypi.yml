@@ -27,8 +27,8 @@ jobs:
         pip3 install flit
     - name: Get version
       run: |
-        - echo "\"\"\"trace your model field change log\"\"\"" > sqlatracker/__init__.py
-        - echo $GITHUB_REF | awk -F '/' '{print "__version__=\""$3"\""}' >> sqlatracker/__init__.py
+        echo "\"\"\"trace your model field change log\"\"\"" > sqlatracker/__init__.py
+        echo $GITHUB_REF | awk -F '/' '{print "__version__=\""$3"\""}' >> sqlatracker/__init__.py
     - name: Build and publish
       env:
         FLIT_USERNAME: ${{ secrets.PYPI_USERNAME }}
