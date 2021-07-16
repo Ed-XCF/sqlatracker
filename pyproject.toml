@@ -39,6 +39,4 @@ deps = -rrequirements_dev.txt
 commands =
     coverage run -m pytest
     coverage report
-setenv =
-    PYTHONPATH = {toxinidir}/clients/intermediates:{toxinidir}/services/rpc
 """
