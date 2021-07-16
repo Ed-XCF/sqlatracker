@@ -1,6 +1,11 @@
 # sqlatracker
 #### Inspired by django-field-history
 
+![GitHub](https://img.shields.io/github/license/Ed-XCF/sqlatracker)
+[![Build Status](https://travis-ci.org/Ed-XCF/sqlatracker.svg?branch=master)](https://travis-ci.org/Ed-XCF/sqlatracker)
+[![codecov](https://codecov.io/gh/Ed-XCF/sqlatracker/branch/master/graph/badge.svg?token=J3HnAigB4J)](undefined)
+![PyPI](https://img.shields.io/pypi/v/sqlatracker)
+
 ### Example
 ```python
 from sqlalchemy import BigInteger, Column
